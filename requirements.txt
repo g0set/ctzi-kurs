@@ -1,0 +1,2 @@
+# Зависимости RuBERT. PyTorch CPU устанавливается отдельно (см. README.md).
+-r rubert-requirements.txt

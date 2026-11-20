@@ -1,0 +1,35 @@
+# Локальное окружение и кэш
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.env
+.env.*
+*.log
+
+# Веса моделей, контрольные точки и внешний корпус
+models/
+training/
+external/
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.joblib
+
+# Генерируемые и локальные данные
+results/
+data/factru_dev.jsonl
+data/factru_test.jsonl
+data/variant18_full_test.jsonl
+
+# Архивы обновлений и обученных моделей: загружаются через Releases, не через Git
+*.zip
+
+# Локальные резервные копии
+README_old.md
+README_before_restore.md
+*_before_restore.py
+*~

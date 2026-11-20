@@ -1,0 +1,9 @@
+# Для обучения и инференса RuBERT используйте отдельное виртуальное окружение.
+# Поддерживается Python 3.10–3.12; в Google Colab уже установлен PyTorch.
+transformers>=4.48,<5
+datasets>=3,<5
+accelerate>=0.28,<2
+seqeval>=1.2,<2
+numpy>=1.23,<3
+protobuf>=4.25
+sentencepiece>=0.2
